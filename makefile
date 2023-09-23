@@ -1,5 +1,8 @@
+CC = gcc
+CXXFLAFS = -Wall
+
 main.c: main.c
-	gcc src/main.cpp -o build/hello
+	$(CC) $(CXXFLAGS) src/main.cpp -o build/hello
 
 clean:
 	rmdir build
