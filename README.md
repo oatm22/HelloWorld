@@ -1,3 +1,5 @@
 # HelloWorld
 Hello World in C++</br>
-Just execute `make`, you should get a binary called `hello` in ./build/
+Just execute `make`, a binary called `hello` will be output to `build/`
+
+Not to mention it also prints a box
