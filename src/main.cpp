@@ -6,6 +6,6 @@ using namespace std;
 int main ()
 {
 	printf("Hello, World!\n\n");
-	drawBox(5, 5, true);
+	drawBox(6, 6, false);
 	return 0;
 }

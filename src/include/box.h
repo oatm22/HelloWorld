@@ -5,14 +5,7 @@ void drawBox (int w, int h, bool fill)
 		printf("[");
 		for (int x = 0; x < w; x++)
 		{
-			if (fill)
-			{
-				printf("--");
-			}
-			else
-			{
-				printf("  ");
-			}
+			printf(fill ? "--" : "  ");
 		}
 		printf("]\n");
 	}
